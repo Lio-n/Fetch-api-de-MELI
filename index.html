@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>MELI</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <form class="header__form-search">
+        <input
+          type="text"
+          name="search"
+          class="header__search-input"
+          placeholder="Buscar productos, marcas y más"
+        />
+        <button class="header__search-btn">Buscar</button>
+      </form>
+    </header>
+    <!--     <ol class="product__list-items"></ol> -->
+    <section>
+      <div class="product">
+        <h3 class="product__results"></h3>
+        <ol class="product__list-items"></ol>
+      </div>
+    </section>
+    <template>
+      <div class="product__item">
+        <a href="" class="product__link" target="_blanck">
+          <div>
+            <img
+              src="https://http2.mlstatic.com/D_Q_NP_906706-MLA46884084312_072021-AB.webpcel"
+              alt=""
+              class="product__image"
+            />
+            <div class="product__container">
+              <div>
+                <h4 class="product__title"></h4>
+                <span class="product__condition"></span>
+              </div>
+              <span class="product__sold-quantity"></span>
+            </div>
+          </div>
+          <div class="product__price"></div>
+        </a>
+      </div>
+    </template>
+  </body>
+</html>
